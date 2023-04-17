@@ -10,7 +10,7 @@ public class Acento {
         for (String[] lineas: leer.lineas(archivo)) {
             Matcher matcher = patron.matcher(lineas[1]);
             if (matcher.find()) {
-                System.out.println("Linea: " + lineas[0] + "\tSI" + "\tAcento encontrado -- Corresponde a la Expresión Regular...");
+                System.out.println("Linea: " + lineas[0] + "\tSI" + "\tAcento encontrado...");
             }else{
                 System.out.println("Linea: " + lineas[0] + "\tNO");
             }
